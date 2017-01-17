@@ -26,6 +26,9 @@ public final class DemoDetailsList {
     }
 
     public static final DemoDetails[] DEMOS = {
+            new DemoDetails(R.string.websocket_demo_label,
+                    R.string.websocket_demo_description,
+                    WebsocketDemoActivity.class),
             new DemoDetails(R.string.basic_map_demo_label,
                     R.string.basic_map_demo_description,
                     BasicMapDemoActivity.class),

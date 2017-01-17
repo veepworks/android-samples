@@ -4,3 +4,4 @@ build/
 *.iml
 local.properties
 .DS_Store
+ApiDemos/app/src/debug/res/values/aws_api.xml

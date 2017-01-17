@@ -36,12 +36,13 @@ public class MapsMarkerActivity extends AppCompatActivity
      * If Google Play services is not installed on the device, the user receives a prompt to install
      * Play services inside the SupportMapFragment. The API invokes this method after the user has
      * installed Google Play services and returned to the app.
+     * lat: 32.7767, lng: -96.7970}
      */
     @Override
     public void onMapReady(GoogleMap googleMap) {
         // Add a marker in Sydney, Australia,
         // and move the map's camera to the same location.
-        LatLng sydney = new LatLng(-33.852, 151.211);
+        LatLng sydney = new LatLng(32.7767, -96.7970);
         googleMap.addMarker(new MarkerOptions().position(sydney)
                 .title("Marker in Sydney"));
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
